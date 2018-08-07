@@ -1,0 +1,19 @@
+{
+  "name": "template-design",
+  "version": "1.0.0",
+  "description": "simple node app",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ExpressTemplate"
+  },
+  "author": "Brad Traversy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  }
+}
