@@ -1,10 +1,17 @@
-const express = require('express');
-const app = express();
- app.get('/',(req,res)=>{
-   res.send('Hello FirstByte');
- });
- app.get('/helloworld',(req,res)=>{
-   res.send('Hello world');
- });
+const path = require('path')
+let express = require('express');
+let app = express();
+app.set('view engine', 'pug')
+app.set('views', './views')
+app.use(express.static(path.join(__dirname, 'views')))
 
- app.listen(3000,()=>console.log('listening on the port 3000..'));
+app.get('/', function (req, res) {
+  res.render('header')
+})
+// app.get('/signup', function (req, res) {
+//   res.render('signup')
+// })
+// app.get('/home', function (req, res) {
+//   res.render('home')
+// })
+app.listen(3000);
