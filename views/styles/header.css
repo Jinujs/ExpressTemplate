@@ -1,0 +1,21 @@
+body{
+  background-color:white;
+}
+div {
+  margin-top: -50px;
+  margin-left: 500px;
+}
+img{
+  width: 100px;
+  height:100px;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 0px;
+}
+a{
+  margin-left: 100px;
+  padding-top: 50px;
+  font-size: 30px;
+  text-decoration:none;
+  color: black;
+}
