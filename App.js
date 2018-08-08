@@ -12,12 +12,12 @@ app.use(express.static(path.join(__dirname, 'views')))
 //   res.render('header')
 // })
 app.get('/', function (req, res) {
-  res.render('footer')
+  res.render('home')
 })
-// app.get('/signup', function (req, res) {
-//   res.render('signup')
-// })
-// app.get('/home', function (req, res) {
-//   res.render('home')
-// })
+app.get('/about', function (req, res) {
+  res.render('about')
+})
+app.get('/contacts', function (req, res) {
+  res.render('contacts')
+})
 app.listen(3000);
