@@ -1,8 +1,8 @@
 body{
   background-color:white;
 }
-div {
-  margin-bottom:500px;
+div.foo {
+  margin-top: 200px;
 
 }
 hr {
