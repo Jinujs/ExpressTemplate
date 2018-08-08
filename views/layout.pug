@@ -1,0 +1,13 @@
+doctype
+html
+  head
+      block styles
+      <link rel="stylesheet" type="text/css" href="/styles/header.css">
+      <link rel="stylesheet" type="text/css" href="/styles/footer.css">
+  body
+    header
+      include includes/header.pug
+    section#wrapper
+      block content
+      footer
+       include includes/footer.pug
