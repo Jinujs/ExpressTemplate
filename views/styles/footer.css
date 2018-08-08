@@ -1,0 +1,18 @@
+body{
+  background-color:white;
+}
+div {
+  margin-bottom:500px;
+
+}
+hr {
+  margin: 50px;
+  color:#43f9c9;
+}
+p {
+  text-align:center;
+}
+img {
+  width: 13px;
+  height:13px;
+}
